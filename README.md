@@ -10,14 +10,16 @@ In this repo, I tried to make a Convolution Neural Network, which is capable to 
 -MotorBike <br />
 -A Person <br />
 
+I used dataset present [here]()
+
 Here is a summary of its architecture:
 
  <sub>
 
-Model: "sequential_1"
+Model: sequential_1
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
+Layer (type)                  Output Shape             Param    
+_________________________________________________________________
 conv2d_1 (Conv2D)            (None, 100, 100, 128)     9728      
 _________________________________________________________________
 conv2d_2 (Conv2D)            (None, 100, 100, 128)     409728    
@@ -49,9 +51,11 @@ _________________________________________________________________
 dropout_4 (Dropout)          (None, 256)               0         
 _________________________________________________________________
 dense_2 (Dense)              (None, 8)                 2056      
-=================================================================
-Total params: 11,269,000
-Trainable params: 11,269,000
-Non-trainable params: 0
+_________________________________________________________________
+Total params: 11,269,000 <br />
+Trainable params: 11,269,000 <br />
+Non-trainable params: 0 <br />
 
  </sub>
+ 
+ It was able to attain an accuracy of 93%.
