@@ -12,6 +12,8 @@ In this repo, I tried to make a Convolution Neural Network, which is capable to 
 
 Here is a summary of its architecture:
 
+ <sub>
+
 Model: "sequential_1"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -51,3 +53,5 @@ dense_2 (Dense)              (None, 8)                 2056
 Total params: 11,269,000
 Trainable params: 11,269,000
 Non-trainable params: 0
+
+ </sub>
