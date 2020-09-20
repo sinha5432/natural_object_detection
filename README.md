@@ -57,5 +57,5 @@ Trainable params: 11,269,000 <br />
 Non-trainable params: 0 <br />
 
  </sub>
- 
+ <br />
  It was able to attain an accuracy of 93%.
