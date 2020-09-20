@@ -52,9 +52,9 @@ dropout_4 (Dropout)          (None, 256)               0
 _________________________________________________________________
 dense_2 (Dense)              (None, 8)                 2056      
 _________________________________________________________________
-Total params: 11,269,000 <br />
-Trainable params: 11,269,000 <br />
-Non-trainable params: 0 <br />
+Total params: 11,269,000 ,
+Trainable params: 11,269,000 ,
+Non-trainable params: 0 .
 
  </sub>
  <br />
